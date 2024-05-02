@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter ShowCase',
+      title: 'Flutter ShowCase with code rabbit',
       theme: ThemeData(
         primaryColor: const Color(0xffEE5366),
       ),
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
           },
           blurValue: 1,
           builder: Builder(builder: (context) => const MailPage()),
-          autoPlayDelay: const Duration(seconds: 3),
+          autoPlayDelay: Duration(seconds: 3),
         ),
       ),
     );
