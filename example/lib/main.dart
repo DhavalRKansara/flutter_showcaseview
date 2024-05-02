@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter ShowCase',
+      title: 'Flutter ShowCase with code rabbit',
       theme: ThemeData(
         primaryColor: const Color(0xffEE5366),
       ),
